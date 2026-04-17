@@ -65,6 +65,7 @@ Supported CAPTCHA types:
 - `hcaptcha`
 - `recaptcha`
 - `turnstile` (Cloudflare CAPTCHA)
+
 To trigger reCAPTCHA solving after a form submission, visit our [documentation](https://developers.oxylabs.io/scraping-solutions/headless-browser/features/dynamic-captcha-solving).
 
 _**Important:** Cloudflare `turnstile` CAPTCHAs require a different approach. You must initiate CAPTCHA detection before performing the action that triggers it, since `turnstile` must be intercepted before it appears on screen._
