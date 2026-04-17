@@ -131,7 +131,7 @@ The workflow is straightforward:
 | Fireforx (Legacy)    | `wss://ubs.oxylabs.io`          |  `wss://ubs-us.oxylabs.io` |
 
 **Authentication:** Credentials are passed directly in the WebSocket URL in the format `wss://username:password@endpoint`.
-**Rate limits:** Each account has `100` concurrent sessions and can launch up to 10 sessions per second per browser type. Contact [Oxylabs support](support@oxylabs.io) to request higher limits.
+**Rate limits:** Each account has `100` concurrent sessions and can launch up to 10 sessions per second per browser type. Contact [Oxylabs support](mailto:support@oxylabs.io) to request higher limits.
 
 ## How to Optimize Headless Browser Traffic
 Since Headless Browser is billed based on traffic (GB), optimizing bandwidth usage directly reduces costs. Automation scripts often download unnecessary resources like images, stylesheets, fonts, and media files that you don't need for data extraction. The most effective optimization is intercepting network requests and blocking non-essential resource types before they download.
@@ -185,4 +185,4 @@ For detailed configuration, advanced usage, and multi-language code examples, ch
 - [Troubleshooting guide](https://developers.oxylabs.io/scraping-solutions/headless-browser/troubleshooting-guide)
 
 ## Contact us
-If you have questions or need support, reach out to us at [support@oxylabs.io](support@oxylabs.io), or through live chat, accessible via [Oxylabs Dashboard](https://dashboard.oxylabs.io/en/). For enterprise-related inquiries, contact your dedicated account manager.
+If you have questions or need support, reach out to us at [support@oxylabs.io](mailto:support@oxylabs.io), or through live chat, accessible via [Oxylabs Dashboard](https://dashboard.oxylabs.io/en/). For enterprise-related inquiries, contact your dedicated account manager.
