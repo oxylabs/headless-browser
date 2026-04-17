@@ -80,7 +80,7 @@ Available parameters:
 If you want to learn more information about Headless Browsers geolocation targeting, check out our [documentation](https://developers.oxylabs.io/scraping-solutions/headless-browser/features/geolocation-targeting) on Headless Browsers geolocation targeting.
 
 ### Device Type
-Headless Browser can emulate different device types using the p_device parameter. This is useful for scraping responsive layouts, mobile-specific content, or device-dependent behavior such as different CAPTCHAs or UI elements.
+Headless Browser can emulate different device types using the `p_device` parameter. This is useful for scraping responsive layouts, mobile-specific content, or device-dependent behavior such as different CAPTCHAs or UI elements.
 Available values:
 | Value | Description |
 |--------|-------------|
